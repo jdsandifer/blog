@@ -47,8 +47,11 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
-          React apps with the best UX users can get.
+          I&apos;m J.D. Sandifer, a Software Developer with two years of industry experience, specializing in developing
+          React apps and working with anything JavaScript related.
+        </p>
+        <p>
+          I also like to talk about other things, too. :-)
         </p>
         <Link to="/contact">
           <Button big>
@@ -97,7 +100,7 @@ export const IndexQuery = graphql`
           }
           frontmatter {
             title
-            date(formatString: "DD.MM.YYYY")
+            date(formatString: "YYYY.MM.DD")
             category
           }
           excerpt(pruneLength: 200)
