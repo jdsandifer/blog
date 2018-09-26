@@ -4,18 +4,20 @@ title: "Sound Technician Resources"
 category: "Audio"
 ---
 
-To set up this blog, I wanted a test post to see how things would look so I 
-grabbed a resource page I created a while ago that needed some re-styling. 
+To get this blog started, I wanted a test post to see how things would look so I 
+grabbed a resource page I created a while ago that needed some re-styling.
+
 I originally created it without any styles applied - very web 1.0 - in order to 
 get it done. (Thinking about how I wanted it to look was keeping me from 
-getting started on the content so I just skipped that to get the ball rolling.) 
+getting started so I just skipped that.) 
 Now that I'm starting this blog, I thought it would be a good test post. 
-It would get some style and no one reads the first blog post anyway, right?
+It would get finally get some styling and I wouldn't have to worry about writing a post while
+I was figuring out the look of the blog.
 
-Without further ado, the resources page I created for sound technicians at my church:
+So here it is, a resources page I created for sound technicians and musicians:
 
 # Useful Sound Technician Resources
-Please excuse the barebones nature of this page - done is better than perfect, right? (Ed: Not barebones anymore!)
+Please excuse the barebones nature of this page - done is better than perfect, right? [Update: Not barebones anymore!]
 
 ## How to Use a Microphone (And More)
 If you stumbled upon this page and aren't a sound technician, but interact with sound equipment in one way or another, then these links might be for you. (Also useful for sound techs when you need to explain a concept to a speaker or musician.)
@@ -23,14 +25,14 @@ If you stumbled upon this page and aren't a sound technician, but interact with 
 * [Speaker & Musician Training Video Playlist](https://www.youtube.com/playlist?list=PLFHUyHKAjpavTSVOW_5cgB9P8Rv3ekzp_) - Just jump to the video that fits your needs.
 
 ## Learning to Hear Sound
-It's a visual world - learning to hear as well as we see is difficult. Here are some things to help with that.
+It's a visual world - learning to hear as a primary source of information is difficult (unless you can't see). Here are some things to help with that.
 
-* This section is under construction...
+* This section is still under construction...
 
 ## What Is Good Sound?
 Resources to help you know what things should sound like. Knowing what you're aiming for is half the battle.
 
-* [Good Sound Video Playlist](https://www.youtube.com/playlist?list=PLFHUyHKAjpau_tHCYZWWYq3v9_1iz53yn) - Examples of quality instruments and vocals. You can't make amateur performers or budget instruments sound like they aren't, but you can help them get a little closer!
+* [Good Sound Video Playlist](https://www.youtube.com/playlist?list=PLFHUyHKAjpau_tHCYZWWYq3v9_1iz53yn) - Examples of quality instruments and vocals. You can't make amateur performers or budget instruments sound like they aren't, but you *can* help them get a little closer! If you know what you're aiming for, that is.
 
 ## How to Mix
 What's gain? How do I make that sound less harsh? What do you call the thing that makes levels more balanced? Answers to those questions and more...
