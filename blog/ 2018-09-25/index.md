@@ -64,6 +64,8 @@ After some researching and back-tracking, I figured the problem must be that my 
 
 More searching led me to a potential problem in one of Gatsby's dependencies used for CSS processing. I easily wasted an hour trying to bypass that part of the build to no avail.
 
+I want to take a moment to point out that somewhere in here would have been a good time to seek help from others. Finding a good place to get responsive help in working with Gatsby would have paid dividends both in getting a solution to my current problem and also in knowing where to go next time. I wanted to get the site finished quickly and I made myself feel like I didn't have time to wait for someone else to respond to my problem. I definitely think this was a mistake.
+
 ## Inspiration
 
 I don't know when it hit me, but I finally considered another solution: Instead of trying to make my v1 Gatsby starter work with v2, why not just use Gatsby v1?
@@ -75,8 +77,7 @@ Sure enough, with that done I was building my site and happy as a clam.
 ## Tl;dr ( A.k.a. Summary)
 I think I've reached a good length for this post so I'm going to cover deployment of the site in another post - stay tuned! Before leaving though, here's what I learned about redesigning a web site (or building from scratch):
 
-* Use a static site generator and starter template or theme.
-* Crete your content and source or take photos.
-* Build it first! Sort out any problems before you start spending time on your content.
-* Give yourself time so you can ask others for help.
+* Use a static site generator and starter template or theme. Build off the work of others!
+* Build it first! Sort out any problems before you start spending time on your own content.
+* Give yourself time so you can ask others for help. I wanted to GET IT DONE and gave myself an unhelpful time crunch that eliminated seeking help from others.
 * Enjoy the beauty of modern development tools!
