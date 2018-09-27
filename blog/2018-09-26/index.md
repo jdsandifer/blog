@@ -4,7 +4,7 @@ title: "The Weird Reason My React App Wasn't Working on Chrome for iOS"
 category: "Bugs"
 ---
 
-If you haven't checked out my portfolio, you may not know that I pioneered a move to React for a web app I support at work. This app displays event orders so technicians can't deliver the correct gear for events in the building.
+If you haven't checked out my portfolio, you may not know that I pioneered a move to React for a web app I support at work. This app displays event orders so technicians can deliver the correct gear for events in the building.
 
 ## The App's Not Working - Like, At All!
 It's never fun to find out that the app you've been slaving away at for days and you thought had just been successfully released doesn't work on a user's device. It's hard to test every single device so this is common, but at work we have a direct connection to our users and can specify how they access our app so it was surprising to have this happen.
@@ -16,8 +16,8 @@ One of my strengths in software development is isolating a problem to help solve
 1. Is the HTML page loading ok? Looks like it.
 1. Is the React container showing up? Yep.
 1. Is the React app rendering? No...
-    1. Because of React itself?
-    1. Or React-DOM? No, both are working. (Simple substitution testing shows that React renders a simple element fine.)
+    1. Because of React itself? No.
+    1. Or React-DOM? No, it's also working. (Simple substitution testing shows that React renders a simple element fine.)
 1. So everything's working, but the elements aren't showing up? Yep...
 
 From there, I dove into the code that controls which elements show up and where. The primary issue became apparent - events weren't showing up because their dates weren't getting figured out correctly. Correct filtering, but bad dates somehow.
@@ -27,7 +27,7 @@ As I've grown as a devloper, I've come to love good documentation. [MDN](https:/
 
 Here's a sample of the type of code I'm trying to verify: `const eventDate = new Date("2018-09-26")`.
 
-Sure enough, the docs confirm that the ISO 8601 date format is an accepted parameter for creating a new date.
+Sure enough, the docs confirm that the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date format is an accepted parameter for creating a new date.
 
 Just for kicks, I try `const eventDate = new Date(2018, 8, 26)`, using an older style initialization.
 

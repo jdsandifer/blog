@@ -16,9 +16,6 @@ I was figuring out the look of the blog.
 
 So here it is, a resources page I created for sound technicians and musicians:
 
-# Useful Sound Technician Resources
-Please excuse the barebones nature of this page - done is better than perfect, right? [Update: Not barebones anymore!]
-
 ## How to Use a Microphone (And More)
 If you stumbled upon this page and aren't a sound technician, but interact with sound equipment in one way or another, then these links might be for you. (Also useful for sound techs when you need to explain a concept to a speaker or musician.)
 
