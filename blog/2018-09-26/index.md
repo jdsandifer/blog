@@ -1,13 +1,13 @@
 ---
 date: "2018-09-26"
-title: "The Weird Reason My React App Wasn't Working on Chrome for iOS"
+title: "The Weird Reason My React App Failed on Chrome for iOS"
 category: "Bugs"
 ---
 
-If you haven't checked out my portfolio, you may not know that I pioneered a move to React for a web app I support at work. This app displays event orders so technicians can deliver the correct gear for events in the building.
+If you haven't checked out my portfolio, you may not know that I pioneered a move to React for a web app I support at work. This app displays event orders so technicians can deliver the correct gear to events in the building.
 
-## The App's Not Working - Like, At All!
-It's never fun to find out that the app you've been slaving away at for days and you thought had just been successfully released doesn't work on a user's device. It's hard to test every single device so I doubt this is uncommon, but at work we have a direct connection to our users and can specify how they access our app so it was surprising to have this happen.
+## The App's Not Working!
+It's never fun to find out that the app you've been slaving away at for days and you thought had just been successfully released doesn't work on a user's device. It's hard to test every single device so I doubt this is uncommon, but at work we have a direct connection to our users and can specify which browser they use to access our app so it was surprising to have this happen.
 
 Anyway, the issue was that the main page that displays events wasn't displaying anything at all. It seemed to only be affecting users connecting on iOS devices so that's what we had to go on.
 
