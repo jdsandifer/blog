@@ -1,6 +1,6 @@
 ---
 date: "2018-09-25"
-title: "How I Overhauled My Website in About a Day"
+title: "How I Overhauled My Website in a Day"
 category: "Technology"
 ---
 
