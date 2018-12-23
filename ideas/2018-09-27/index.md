@@ -4,7 +4,7 @@ title: "How I Deployed My Web Site"
 category: "Development"
 ---
 
-As promised, here is Part 2 of re-designing my web site. Check out [Part 1]() if you missed it.
+As promised, here is Part 2 of re-designing my web site. Check out [Part 1](/blog/how-i-overhauled-my-website-in-a-day) if you missed it.
 
 ## Netlify
 As I mentioned in a previous post, I like to meet up with other developers outside my work from time to time to learn as much as I can about software, the industry, and new technologies. It's also fun swapping stories.
