@@ -1,7 +1,7 @@
 ---
-date: "2018-09-28"
-title: "Post About LEGO Customization: Volcano Crawler"
-category: "LEGO"
+date: "2018-10-28"
+title: "LEGO Customization: The Improved Volcano Crawler"
+category: "Fun"
 ---
 
 ## I Am Always Improving Stuff
