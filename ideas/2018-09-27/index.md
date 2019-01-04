@@ -29,6 +29,9 @@ Now I can make quick changes to text or even simple code changes right on GitHub
 Not only do the changes go live seconds after each commit, but there's also error checking baked into the build process. 
 If anything goes wrong with the build, no changes make it to the site. This is nice insurance against mistakes making it online.
 
+One other benefit: Any changes I make to my site are included in my GitHub history. 
+I don't know how much stake hiring managers put in those green squares on my GitHub page, but I like the idea that I'm getting credit for all of the coding I'm doing.
+
 ## Web Page Testing
 An important part of any website project is web page testing. Does your site load quickly, are you caching resources correctly, and is it accessible? Most of this is handled automatically by Gatsby so I don't have to worry about it, but it's important to check.
 
