@@ -1,7 +1,7 @@
 ---
 date: "2018-09-27"
 title: "How I Deployed My Web Site"
-category: "Development"
+category: "Technology"
 ---
 
 As promised, here is Part 2 of re-designing my web site. Check out [Part 1](/blog/how-i-overhauled-my-website-in-a-day) if you missed it.
