@@ -35,7 +35,7 @@ I don't know how much stake hiring managers put in those green squares on my Git
 ## Web Page Testing
 An important part of any website project is web page testing. Does your site load quickly, are you caching resources correctly, and is it accessible? Most of this is handled automatically by Gatsby so I don't have to worry about it, but it's important to check.
 
-So any time you need to test a website, go to [Web Page Test](https://www.webpagetest.org/).
+For all your website testing needs, go to [Web Page Test](https://www.webpagetest.org/).
 
 ## Progressive JPEG Compression
 One thing that's not necessarily automatically handled by Gatsby is Progressive JPEG Compression. 
