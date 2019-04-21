@@ -48,7 +48,7 @@ Here's a great [article about progressive JPEG's](https://cloudinary.com/blog/pr
 
 The solution I chose to make progressive JPEG's was install mozjpeg using Homebrew (on MacOS).
 I wasted a lot of time learning about compiling from source code before I realized a Homebrew install was possible. 
-I wish I had seen that earlier, but such is life...
+I wish I had seen that earlier, but such is life. :-)
 
 ## I Had Fun
 Even as I write this blog post, I'm simply editing a file on GitHub. 
