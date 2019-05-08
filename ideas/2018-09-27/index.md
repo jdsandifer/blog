@@ -4,7 +4,7 @@ title: "How I Deployed My Web Site"
 category: "Technology"
 ---
 
-As promised, here is Part 2 of re-designing my web site. Check out [Part 1](/blog/how-i-overhauled-my-website-in-a-day) if you missed it.
+As promised, here is Part 2 of re-designing my web site. Check out Part 1 if you missed it.
 
 ## Netlify
 I like to meet up with other developers outside my work from time to time to learn as much as I can about software, the industry, and new technologies. It's also fun swapping stories.
@@ -38,22 +38,24 @@ An important part of any website project is web page testing. Does your site loa
 For all your website testing needs, go to [Web Page Test](https://www.webpagetest.org/).
 
 ## Progressive JPEG Compression
-One thing that's not necessarily automatically handled by Gatsby is Progressive JPEG Compression. 
-It's important to make use of technological advances that solve problems and one recent in images is progressive compression. 
-This is the pictures you've seen online that load as blurry images, but get sharper with time. 
+One thing that's not automatically handled by Gatsby is Progressive JPEG Compression. 
+It's worth using technological advancements that solve problems and one recent solution in images is **progressive compression**. 
+You've probably seen pictures online that load as blurry or very simple images, but get sharper or more complex after a few seconds. 
 The idea is that this enables you to see the layout of the page and an approximation of the final image *very* quickly. 
-Often that's all that's needed to give you context for what you're reading.
+Often that's all that's needed to give you context for what you're reading so I highly recommend taking advantage of it.
 
 Here's a great [article about progressive JPEG's](https://cloudinary.com/blog/progressive_jpegs_and_green_martians) - it has green martians! (And useful information, too.)
 
-The solution I chose to make progressive JPEG's was install mozjpeg using Homebrew (on MacOS).
+The solution I chose to make progressive JPEG's was to install `mozjpeg` using Homebrew (on MacOS).
 I wasted a lot of time learning about compiling from source code before I realized a Homebrew install was possible. 
 I wish I had seen that earlier, but such is life. :-)
 
+I'm currently running it from the command line by hand, but I plan to explore adding `mozjpeg` into my Gatsby configuration so I can automate the process.
+
 ## I Had Fun
 Even as I write this blog post, I'm simply editing a file on GitHub. 
-Sometimes I use my development environment, but other times I just edit right on GitHub - it doesn't publish until I push to the master branch so it's safe to draft, revise, and tweak right on GitHub!
-Even after I commit on the master branch, nothing goes live unless everything compiles correctly so I know I'm safe from stupid mistakes causing my site to go down.
+Sometimes I use my development environment, but other times I just edit right in my repo - it doesn't publish until I push to the master branch so it's safe to draft, revise, and tweak on GitHub!
+Even after I commit on the master branch, nothing goes live unless everything compiles correctly so I know I'm safe from simple mistakes causing my site to go down.
 
-In then end, I really like Netlify as a host, but the important thing is to leverage modern technology to make your life easier. 
-Continuous deployment is an awesome solution to speed up your web development.
+In then end, I really like Netlify as a host, but the important thing is that I'm leveraging modern technology to make my life easier. 
+Continuous deployment is an awesome tool that speeds up my web development and I highly recommend it!
