@@ -11,10 +11,9 @@ I originally created it without any styles applied - very web 1.0 - in order to
 get it done. (Thinking about how I wanted it to look was keeping me from 
 getting started so I just skipped that.) 
 Now that I'm starting this blog, I thought it would be a good test post. 
-It would get finally get some styling and I wouldn't have to worry about writing a post while
-I was figuring out the look of the blog.
+It would finally get some styling and I wouldn't have to write a new post to figure out the look of the blog.
 
-So here it is, a resources page I created for sound technicians and musicians:
+So here it is, a resources page I created for sound technicians, musicians, and presenters:
 
 ## How to Use a Microphone (And More)
 If you stumbled upon this page and aren't a sound technician, but interact with sound equipment in one way or another, then these links might be for you. (Also useful for sound techs when you need to explain a concept to a speaker or musician.)
