@@ -82,7 +82,7 @@ const Layout = ({ children }) => (
           <SEO />
           {children}
           <Footer>
-            &copy; 2018 by <a href="https://www.jdsandifer.com">J.D. Sandifer</a>. All rights reserved. <br />
+            &copy; 2018, 2019 by <a href="https://www.jdsandifer.com">J.D. Sandifer</a>. All rights reserved. <br />
             <a href="https://github.com/jdsandifer">GitHub</a> <br />
             <span>Last build: {data.site.buildTime}</span>
           </Footer>
