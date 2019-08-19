@@ -67,4 +67,22 @@ that are an ecosystem in and of themselves - we're talking about React, React Na
 Stack Overflow, a site where developers can answer each other's software development questions, 
 has grown from it's beginnings in ____ to a staggering ____ users in 2019 as I write this.
 
+To say the least, there are a dizzying array of options out there when it comes to technology.
+
+## Making a Choice
+I got involved as a software developer specifically because of this kind of problem. A lot of people find the 
+plethora of technological choices to be overwhelming. In addition, even once you've made a choice, it can be 
+difficult to figure out how to best use the technology to achieve your goals.
+
+I see myself filling in that gap: Using technology to help people achieve their goals.
+
+And that's also why I work for Metal Toad. As a digital transformation company, Metal Toad exists to work with its 
+customers to find technology solutions that allow them to meet their goals. Whether its discussing the best options 
+for a new project in a discovery phase, leading the charge on getting a new system up and running so it starts out 
+in the best possible way, or planning and executing a successful technology upgrade, Metal Toad takes care of 
+solving technology problems so you can focus on how to solve the problems of your customers.
+
+With the every-increasing amount of technology out their, it just makes sense to work with a company that makes 
+being familiar with all of that it's business. I'm really glad I get to be a part of that!
+
 [1]
