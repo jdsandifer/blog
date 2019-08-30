@@ -1,88 +1,73 @@
 ---
 date: "2019-08-16"
-title: "A (My) Short History of Programming"
+title: "My History In Programming"
 category: "Software Development"
 ---
 
 ## The Beginnings of Software Development
-According to Wikipedia, the first computer programming language was _____ and it was created in 19__ (1).
+In 1957, a programming language called FORTRAN started to take off as the first commercially successful language for software development. And with it, a new field of possibility was opened up.
 
+But that was only 62 years ago. That’s less than one lifetime. Two generations. In the grand scheme of things, not very long ago.
 
+So I feel good about the fact that my first venture into programming was about twenty years ago. I’ve been involved with software development for almost a third of its existence!
+
+Here’s my story:
 
 ## My First Programming Language
 At some point after I learned to read, but before middle school, 
-I took an interest in computers and used my dad's IBM PC ([this one]()) to 
-learn BASIC, a programming language designed to be simple. It had a good name, right?
+I took an interest in computers and used my dad's IBM PC - [this one](https://en.wikipedia.org/wiki/Influence_of_the_IBM_PC_on_the_personal_computer_market#/media/File:IBM_PC_5150.jpg) -
+to learn BASIC, a programming language designed to be simple. It had a good name, right?
 
-I started poking around on my own, but soon teamed up with my best friend from across the street.
-We made simple computer programs in BASIC and then C++ and eventually in Java - the newest language
-at the time (that I knew about).
+I started trying things out on my own, but soon teamed up with my best friend from across the street.
+We made simple computer programs in BASIC and then C++ and eventually in Java - the newest language at the time.
 
-We didn't create anything ground-breaking, but I learned the ins and outs of logical procedures, 
-debugging code with sometimes cryptic errors, and how to communicate ideas about how a program 
-should function and look like.
+Through that early experimentation, I learned the ins and outs of logical procedures, 
+debugging code with cryptic errors, and how to communicate ideas about how a program 
+should function and how it could look.
 
 ## My First "Job"
 In middle school, I had an awesome Geography teacher named Mr. Rogers. He was technologically advanced for a
-teacher at this time (in my city) because he regularly used a digital projector and screen to display
-information at a time when chalkboards were still commmon and overhead projectors were the only similar technology
-most teachers had access to. (Mr. Rogers inherited the old projector from the theatre.)
-He also regularly gave tests via computer - maybe exclusively, I don't remember for sure. On test days, we would all go 
+teacher at this time because he regularly used a digital projector and screen to display
+lesson information at a time when chalkboards were still common and overhead projectors were the only similar technology
+in everyday use in the classroom.
+He also regularly gave tests via computer. On test days, we would all go 
 over to the computer lab and use the PC's with Windows 3.0 to demonstrate our knowledge about countries in 
 various time periods - their names, locations, and major events associated with them.
 
-So it's not surprising to me that Mr. Rogers allowed students to turn in some assignments in the form of web pages. 
-Looking back at this, I realize what a brilliant move that was, but at the time I simply thought: "Cool, a way to type 
-up my report and not have to print it out or hand it in. No 'dog ate my homework' type issues for me!"
+So it's not surprising to me that Mr. Rogers also allowed students to turn in some assignments in the form of web pages. 
+Looking back at this, I realize what a brilliant educational incentive that was, but at the time I simply thought that it was a cool way to type 
+up my report and not have to print it out or hand it in. No “the dog ate my homework” issues for me!
 
-It's because of that report, that Mr. Rogers gave me my first "job" in software: Redesign the school's web page.
+It's because of that report - and the fact that I coded it by hand in HTML rather than use software to create it - that Mr. Rogers invited me to redesign the school's web page.
 
-If I remember correctly, I used HTML only for the project - no CSS and definitely no JavaScript. I think both were available, 
-but this was around the time that Animated GIF's were still the new hotness so it seemed like every web page had at least 
+This was around the time that Animated GIF's were still the new hotness so it seemed like every web page had at least 
 one waving flag, animated smiley face, or dancing cartoon character. I simply had to choose a reasonable color scheme and avoid 
-the temptation to insert unnecessary graphics and my school's web page went from looking like the average MySpace page to 
-looking super professional.
+the temptation to insert unnecessary moving graphics and my school's web page went from looking like a MySpace page to 
+looking professional. [smiley face emoji][waving flag emoji][or old-fashioned animated gifs]
 
-(Fun side note: Creating the contact list page for the site is how I found out that my geography teacher was married to my 
-[home ec]() teacher. It was the first time I'd ever heard of teachers at the same school being in any kind of relationship and 
-was weird to me at the time.)
+Speaking of web pages: It was only a few years after that when Google came out. I can still remember doing my first Google search in 1998.
 
-## Context
-If you've grown up with most of the technology I'm been talking about so far, you might be wondering how long ago it was
-that I'm talking about. For a little context, Google came out around the this time. Yep, I remember doing my first Google search
-and that was in ____ about 25 years ago.
+Things have come a long way since then, haven’t they?
 
-If it sound like I'm describing your early years in school exactly, well, that's awesome.
+## Proliferation of Technology
+Today, the number of programming languages used to create 
+software has increased to over 100.
+The language I use most right now is JavaScript and within that one language, there are over a million libraries and modules to choose from to help build software.
 
-And if you remember walking to school everyday, up hill both ways, in the snow, then you definitely want keep reading.
-
-## Proliferation of Software
-From 20__ to ____, the number of software titles for computers has ____. And the number of programming languages used to create 
-that software has gone from about ____ to nearly ____!
-
-Currently, I'm focused on one language - JavaScript. In that language space alone, there are roughly ____ language variants and  
-supersets in common use (TypeScript, Flow, ES5, ES2015, etc.) as I write this. There are also ___ major libraries or frameworks 
-that are an ecosystem in and of themselves - we're talking about React, React Native, Redux, etc.
-
-Stack Overflow, a site where developers can answer each other's software development questions, 
-has grown from it's beginnings in ____ to a staggering ____ users in 2019 as I write this.
+Stack Overflow, a site where software developers can answer each other's programming questions, 
+has grown from its humble beginnings in 2008 to a staggering 10 million plus users in 2019.
 
 To say the least, there are a dizzying array of options out there when it comes to technology.
-
 ## Making a Choice
-I got involved as a software developer specifically because of this kind of problem. A lot of people find the 
-plethora of technological choices to be overwhelming. In addition, even once you've made a choice, it can be 
-difficult to figure out how to best use the technology to achieve your goals.
+I got involved in software development specifically because of this kind of problem. A lot of people find the plethora of technological choices to be overwhelming. In addition, even once you've made a choice, it can be difficult to figure out how to best use the technology to achieve your goals. This is true whether you’re envisioning a network of systems reaching around the globe or simply installing a new version of Excel!
+My passion is in closing that gap: Using technology to help people achieve their goals. Making technology as transparent as possible so that maybe someday a piece of software can approach the ease of use of a pencil or hammer.
+And that's also why I work for Metal Toad. As a digital transformation company, Metal Toad exists to help you find technology solutions that allow you to meet your goals. Whether its discussing the best options for a new project in a discovery phase, leading the charge on getting a new system up and running so it starts out in the best possible way, or planning and executing a successful technology upgrade, Metal Toad takes care of solving technology problems so you can focus on how to solve the problems of your customers.
+With the every-increasing amount of technology out there, it just makes sense to work with a company that makes being familiar with technology it's business. I'm glad that I get to be a part of that!
 
-I see myself filling in that gap: Using technology to help people achieve their goals.
-
-And that's also why I work for Metal Toad. As a digital transformation company, Metal Toad exists to work with its 
-customers to find technology solutions that allow them to meet their goals. Whether its discussing the best options 
-for a new project in a discovery phase, leading the charge on getting a new system up and running so it starts out 
-in the best possible way, or planning and executing a successful technology upgrade, Metal Toad takes care of 
-solving technology problems so you can focus on how to solve the problems of your customers.
-
-With the every-increasing amount of technology out their, it just makes sense to work with a company that makes 
-being familiar with all of that it's business. I'm really glad I get to be a part of that!
-
-[1]
+References
+- https://en.wikipedia.org/wiki/History_of_programming_languages
+- https://en.wikipedia.org/wiki/Fortran
+- https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy
+- https://en.wikipedia.org/wiki/List_of_JavaScript_libraries
+- https://en.wikipedia.org/wiki/Stack_Overflow
+- https://modulecounts.com
