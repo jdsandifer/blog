@@ -5,7 +5,7 @@ category: "Software Development"
 ---
 
 ## The Beginnings of Software Development
-In 1957, a programming language called FORTRAN started to take off as the first commercially successful language for software development. And with it, a new field of possibility was opened up.
+In 1957, a programming language called FORTRAN started to take off as the first commercially successful language for software development. And with it, a new field of possibilities opened up.
 
 But that was only 62 years ago. That’s less than one lifetime. Two generations. In the grand scheme of things, not very long ago.
 
@@ -43,7 +43,7 @@ It's because of that report - and the fact that I coded it by hand in HTML rathe
 This was around the time that Animated GIF's were still the new hotness so it seemed like every web page had at least 
 one waving flag, animated smiley face, or dancing cartoon character. I simply had to choose a reasonable color scheme and avoid 
 the temptation to insert unnecessary moving graphics and my school's web page went from looking like a MySpace page to 
-looking professional. [smiley face emoji][waving flag emoji][or old-fashioned animated gifs]
+looking professional.
 
 Speaking of web pages: It was only a few years after that when Google came out. I can still remember doing my first Google search in 1998.
 
@@ -51,18 +51,34 @@ Things have come a long way since then, haven’t they?
 
 ## Proliferation of Technology
 Today, the number of programming languages used to create 
-software has increased to over 100.
-The language I use most right now is JavaScript and within that one language, there are over a million libraries and modules to choose from to help build software.
-
-Stack Overflow, a site where software developers can answer each other's programming questions, 
+software has increased to over 100. The language I use most right now is JavaScript and within that one language, 
+there are over a million libraries and modules to choose from to help build software. Stack Overflow, 
+a site where software developers can answer each other's programming questions, 
 has grown from its humble beginnings in 2008 to a staggering 10 million plus users in 2019.
 
 To say the least, there are a dizzying array of options out there when it comes to technology.
+
 ## Making a Choice
-I got involved in software development specifically because of this kind of problem. A lot of people find the plethora of technological choices to be overwhelming. In addition, even once you've made a choice, it can be difficult to figure out how to best use the technology to achieve your goals. This is true whether you’re envisioning a network of systems reaching around the globe or simply installing a new version of Excel!
-My passion is in closing that gap: Using technology to help people achieve their goals. Making technology as transparent as possible so that maybe someday a piece of software can approach the ease of use of a pencil or hammer.
-And that's also why I work for Metal Toad. As a digital transformation company, Metal Toad exists to help you find technology solutions that allow you to meet your goals. Whether its discussing the best options for a new project in a discovery phase, leading the charge on getting a new system up and running so it starts out in the best possible way, or planning and executing a successful technology upgrade, Metal Toad takes care of solving technology problems so you can focus on how to solve the problems of your customers.
-With the every-increasing amount of technology out there, it just makes sense to work with a company that makes being familiar with technology it's business. I'm glad that I get to be a part of that!
+I got involved in software development specifically because of this kind of problem. 
+A lot of people find the plethora of technological choices to be overwhelming. 
+In addition, even once you've made a choice, it can be difficult to figure out how to best use the technology to achieve your goals. 
+This is true whether you’re envisioning a network of systems reaching around the globe or simply installing a new version of Excel!
+
+My passion is in closing that gap: Using technology to help people achieve their goals. Making technology as transparent as possible 
+so that maybe someday a piece of software can approach the ease of use of a pencil or hammer.
+
+And that's also why I work for Metal Toad. As a digital transformation company, 
+Metal Toad exists to help you find technology solutions that allow you to meet your goals. 
+Whether its discussing the best options for a new project in a discovery phase, 
+leading the charge on getting a new system up and running so it starts out in the best possible way, 
+or planning and executing a successful technology upgrade, Metal Toad takes care of solving technology problems 
+so you can focus on how to solve the problems of your customers.
+
+With the every-increasing amount of technology out there, it just makes sense to work 
+with a company that makes being familiar with technology it's business. I'm glad that I get to be a part of that!
+
+
+
 
 References
 - https://en.wikipedia.org/wiki/History_of_programming_languages
