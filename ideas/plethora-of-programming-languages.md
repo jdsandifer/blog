@@ -1,12 +1,12 @@
 ---
 date: "2019-08-16"
-title: "Why I'm a Software Developer"
+title: "My Programming Story"
 category: "Software Development"
 ---
 
 ## My First Programming Language
 At some point after I learned to read, but before middle school, 
-I took an interest in computers and used my dad's IBM PC - [this one](https://en.wikipedia.org/wiki/Influence_of_the_IBM_PC_on_the_personal_computer_market#/media/File:IBM_PC_5150.jpg) -
+I took an interest in computers and used my dad's IBM PC - [this one](https://unsplash.com/photos/Zd6PL6PSW5E) -
 to learn BASIC, a programming language designed to be simple. It had a good name, right?
 
 I started trying things out on my own, but soon teamed up with my best friend from across the street.
@@ -33,7 +33,7 @@ It's because of that report - and the fact that I coded it by hand in HTML rathe
 
 This was around the time that Animated GIF's were still the new hotness so it seemed like every web page had at least 
 one waving flag, animated smiley face, or dancing cartoon character. I simply had to choose a reasonable color scheme and avoid 
-the temptation to insert unnecessary moving graphics and my school's web page went from looking like a MySpace page to 
+the temptation to insert unnecessary motion graphics and my school's web page went from looking like a MySpace page to 
 looking professional.
 
 Speaking of web pages: It was only a few years after that when Google came out. I can still remember doing my first Google search in 1998.
