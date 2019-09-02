@@ -4,15 +4,6 @@ title: "Why I'm a Software Developer"
 category: "Software Development"
 ---
 
-## The Beginnings of Software Development
-In 1957, a programming language called FORTRAN started to take off as the first commercially successful language for software development. And with it, a new field of possibilities opened up.
-
-But that was only 62 years ago. That’s less than one lifetime. Two generations. In the grand scheme of things, not very long ago.
-
-So I feel good about the fact that my first venture into programming was about twenty years ago. I’ve been involved with software development for almost a third of its existence!
-
-Here’s my story:
-
 ## My First Programming Language
 At some point after I learned to read, but before middle school, 
 I took an interest in computers and used my dad's IBM PC - [this one](https://en.wikipedia.org/wiki/Influence_of_the_IBM_PC_on_the_personal_computer_market#/media/File:IBM_PC_5150.jpg) -
@@ -64,8 +55,7 @@ A lot of people find the plethora of technological choices to be overwhelming.
 In addition, even once you've made a choice, it can be difficult to figure out how to best use the technology to achieve your goals. 
 This is true whether you’re envisioning a network of systems reaching around the globe or simply installing a new version of Excel!
 
-My passion is in closing that gap: Using technology to help people achieve their goals. Making technology as transparent as possible 
-so that maybe someday a piece of software can approach the ease of use of a pencil or hammer.
+My passion is in closing that gap: Creating software that's designed specifically for people to help them achieve their goals.
 
 And that's also why I work for Metal Toad. As a digital transformation company, 
 Metal Toad exists to help you find technology solutions that allow you to meet your goals. 
