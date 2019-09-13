@@ -4,33 +4,30 @@ title: "React Details: Elements, Components, and Higher-Order Components"
 category: "React"
 ---
 
-This post is about React and some of the common vocabulary developers will want to be clear on
-when developing using that library.
-
 ## Why Do Words Matter?
-You may already be thinking: "Vocabulary? Are we talking about defining words? Why is that important?"
-As humans, we're good at adapting to our environments. We make clothes to combat intense weather, 
-tools to help us create and fix things that are difficult with just our hands, and we have strategies 
-to deal with situations that are linguistically challenging.
+As a software engineer, I regularly find myself talking with my coworkers about code. Sometimes we're pairing or mobbing on a piece of code together. Other times I just need to explain what I was doing in one part of the code as part of a code review. Maybe I just had a question about a programming practice or I'm helping someone else think through how to approach a problem. Whatever the reason, talking about code is an integral part of team-based software development.
 
-We ask questions, we try explaining things in different ways, we guesture or draw diagramns, and the list goes on.
-We have lots of options for dealing with gaps in communication, so why spend a lot of time worrying about
-defining each and every little thing?
+When we're talking about code, it's helpful if everyone in the conversation is on the same page about what we're talking about. Code can be cryptic enough as it is so having a shared vocabulary is important. It can be the difference between a lot of confused questions and re-explanations, and a lot of head nodding and thoughtful pondering. It can shave minutes off of meetings and discussions and allow for a richer experience for all involved.
 
-Efficiency.
+That's why words matter: They're the most efficient way we have to quickly communicate an idea.
 
-Efficiency of communication. Which leads to efficiency of production and ultimately customers who get faster results 
-and are therefore very happy. And that leads to the magic word for all things business related: profit.
+But they only work if everyone has the same understanding of what the words mean. If I say "blue" and you're thinking about the color of grass, turtles, and jalapeño peppers then something has gone wrong. It might take a while, but (hopefully) we'll realize there's a communication gap and spend the time to identify and correct it. This is great because we'll have an even better understanding of each other and what we mean, but we'll have spent a lot of extra time doing it. I'd rather get through stuff more efficiently so we have time to talk about our awesome weekends - wouldn't you?
 
-With the case made for good communication with clearly defined words, let's talk about some definitions:
+## Context
+Assuming we've agreed that having a shared vocabularly is important, it's necessary that we also discuss context. Different words have different meanings in different contexts so whenever we define words, we should be careful to think about what contexts where they will apply.
+
+As an engineer focused a lot on React, I'll be sharing about some concepts as they apply to React, but you'll soon see that most of them (if not all of them) can be used in other contexts to mean entirely different things. They can even be used outside of React in a software context so it's important to note that. I've seen many instances where words have gotten confusing simply because it wasn't clear what context they were being used in.
+
+Keep in mind, these concepts are strictly for use in talking about React.
+
+To start with, let's talk about the simplest of things in React:
 
 ## Elements
 React is a library designed to improved the speed and efficiency of displaying the user interface of an application.
 It does this by acting as an intermediary between the code and the screen, creating a virtual representation of the screen 
 that's manipulated by code and then turned into visuals in an efficent way. That virtual representation is composed of elements.
 
-React elements are the building blocks of react. They are used to describe each part of what is displayed on screen 
-- each *element*, you might say.
+React elements are the building blocks of react. They are used to create a representation of each part of what should be displayed on the screen - each *element*, you might say.
 
 So what does an element look like in code? It looks like this:
 ```
@@ -51,16 +48,34 @@ that tag in React. Of course, the fun really starts when we combine multiple ele
 ## Components
 In React, a component is a function that returns one or more React elements. Let's take a look at one:
 ```
-const ReallyCoolComponent = () => { return <div /> }
+const ReallyCoolComponent = () => (<div />)
 ```
 
-Or, again for the non-JSX folks:
+Without using the ES6 arrow function syntax that becomes:
+```
+function ReallyCoolComponent() {
+  return <div />
+}
+```
+
+And again without the JSX:
 ```
 const ReallyCoolComponent = () => { return React.createElement('div') }
 ```
 
+And without JSX or arrow functions:
+```
+function ReallyCoolComponent() {
+  return React.createElement('div')
+}
+```
+
+
 Now this is a pretty basic component; the real joy comes from using components to return whole pieces of the UI 
 and combining those pieces in a modular way.
+
+Let's look at a more realistic example:
+
 
 ## What's a Higher-Order Component?
 
