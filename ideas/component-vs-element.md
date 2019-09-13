@@ -95,9 +95,9 @@ Yes, you can use the class syntax to define a React component and it is differen
 
 - Doesn't React accept other things besides React Elements in the return of a Component?
 
-Yep, you've got me there. Strings, numbers, booleans, and null are also allowed. The first two are turned into React Elements automagically and the other two are ignored (but valid). For simplicity, I'm including all of these things under the umbrella of Reac t Elements.
+Yep, you've got me there. Strings, numbers, booleans, and null are also allowed. The first two are turned into React Elements automagically and the other two are ignored (but valid). For simplicity, I'm including all of these things under the umbrella of React Elements.
 
-You also might be wondering about props at this point. Although props are almost always used in a Component, they are not required. If they are used, though, they add two additional rules:
+You also might be wondering about props at this point. Although props are almost always used in a Component, they're not actually required. If they are used, though, they add two additional rules:
 3. The only parameter a React Component accepts is an object called 'props'.
 4. The Component must act like a pure function with regard to it's props.
 
@@ -112,20 +112,28 @@ const ApplePicker = (props) => {
   )
 }
 ```
-You can see that in accepts a single parameter object. In this case, it expects that object to have properties called 'picked' and 'totalNeeded'. It can then use those parameters to display the data and calculate how many more apples should be picked.
+You can see that in accepts a single parameter object. In this case, it expects that object to have two properties called 'picked' and 'totalNeeded'. It can then use those properties to display the data and calculate how many more apples should be picked.
 
-Importantly, the Component doesn't changes its props or take in additional parameters. That's what it means to act like a pure function with regard to it's props (our rule number 4).
+Importantly, the Component doesn't change its props or take in additional parameters. That's what it means to act like a pure function with regard to it's props (our rule number 4).
 
 Now that we have a pretty good handle on Element and Components, let's take a look at the next step up from there:
 
 ## What's a Higher-Order Component?
-Just like a Component returns Elements, a Higher Order Component return Components. Let's jump straight in with an example:
+Just like a Component is a function that returns a React Element, a Higher Order Component is a function that returns a React Component. Let's jump straight in with an example:
 
 ```
-const withData = (data, Component) => {
-  return (props) => (<Component data={data} />)
+const withData = (data, AComponent) => {
+  return (props) => (<AComponent {...props} data={data} />)
 }
 ```
+
+This is definitely a function, but is it a Higher Order Component? Let's do a quick check to see if the thing it returns is a Component:
+1. Is it a function? Yep!
+2. Does it return a React Element? Yep. (Note: 'AComponent' is a React Component, but <AComponent /> is a React Element.)
+3. If it accepts parameters, is it one parameter called 'props'? Yep.
+4. Does it act like a pure function with regard to its props? It does indeed.
+
+Success! This function is a Higher Order Component. As you can see, it appears to be adding data to the props of 'AComponent'.
 
 ## Communicate
 Now go forth and have productive conversations about React!
