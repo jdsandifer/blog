@@ -33,23 +33,21 @@ React.createElement('div')
 (JSX compiles to regular JavaScript functions - see how it works with [Babel’s interactive compiler](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=DwEwlgbgBA9AfEA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=false&targets=&version=7.6.0&externalPlugins=).)
 
 That function call creates a JavaScript object which includes all of the information React needs 
-to display that piece of the user interface and control it.
-
-You might recognize this element as the humble `div` tag from HTML. In fact, that is the code to create that tag in React. Of course, the fun really starts when we combine multiple elements. Let's look at a larger element:
+to display that piece of the user interface and control it. You might recognize this element as the humble `<div>` tag from HTML. In fact, that is the code to create that tag in React. Of course, the fun really starts when we combine multiple elements. Let's look at a larger element:
 ```
 <div>
   <h1>React Stuff You Need to Know</h1>
-  <p>Here's some really cool stuff about React you should know...</p>
+  <p>Here is some stuff about React…</p>
 </div>
 ```
-As you can see, there are 3 elements here: ‘div’, ‘h1’, and ‘p’. However, this code still only returns one element. Why? Looking at the non-JSX version will be helpful here:
+As you can see, there are 3 elements here: `<div>`, `<h1>`, and `<p>`. However, this code still only returns one element. Why? Looking at the non-JSX version will be helpful here:
 ```
 React.createElement('div', null,
   React.createElement('h1', null, 'React Stuff You Need to Know'),
-  React.createElement('p', null, “Here's some stuff about React…”)
+  React.createElement('p', null, 'Here is some stuff about React…')
 )
 ```
-As you can see, three elements are created, but the two child elements become a part of the parent element. The parent element function call takes the function calls for the children as two of its parameters so the end result is one return from the parent function call.
+The three elements are definitely created, but the two child elements become a part of the parent element. The parent element function call takes the function calls for the children as two of its parameters so the end result is one return from the parent function call.
 
 So far we've been just using standard HTML tags as React elements. Let's switch now and look at how you can create your own elements:
 
@@ -64,7 +62,7 @@ function ReallyCoolComponent() {
   return <div />
 }
 
-const ReallyCoolComponent = () => { return React.createElement('div') }
+const ReallyCoolComponent = () => React.createElement('div')
 
 function ReallyCoolComponent() {
   return React.createElement('div')
@@ -80,7 +78,7 @@ If you've used React some, you might have some objections to this simplistic def
 
 **Q: What about Class components?**
 
-A: Yes, you can use the class syntax to define a React component and it is different than simply defining it using a function, but ultimately *it is still a function*. Don't believe me? Consult Babel: [Class component](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=MYGwhgzhAEBKCmYQgJ4GED2GSYLYAcMA7eIgF2gG8AoAXyA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=7.6.0&externalPlugins=). Or even better, try it yourself in [a Repl](https://repl.it/repls/AlertExternalContent).
+A: Yes, you can use the class syntax to define a React component and it is different than simply defining it using a function, but ultimately *it is still a function*. Don't believe me? Consult Babel: Try it yourself in [a Repl](https://repl.it/repls/AlertExternalContent).
 
 Of course, this doesn’t mean that a functional component and a class component are the same. It just means they both fit the description of being a function.
 
@@ -99,20 +97,20 @@ Let's look at a component that accepts props:
 const ApplePicker = (props) => {
   return (
     <div>
-      <p>{`I've picked ${props.picked} apples today!`}</p>
+      <p>{`I picked ${props.picked} apples today!`}</p>
       <p>{`I should pick ${props.totalNeeded - props.picked} more…`}</p>
     </div>
   )
 }
 ```
-You can see that it accepts a single parameter object. In this case, it expects that object to have two properties called 'picked' and 'totalNeeded'. It can then use those properties to display data and, in this case, calculate how many more apples should be picked.
+You can see that it accepts a single parameter object. In this case, it expects that object to have two properties called `picked` and `totalNeeded`. It can then use those properties to display data and, in this case, calculate how many more apples should be picked.
 
 Importantly, the component doesn't change its props or take in additional parameters. That's what it means to act like a pure function with regard to it's props (our last rule).
 
 Here’s the complete list of rules for a React component:
 1. It must be a function. (Classes are functions.)
 1. It must return a valid React element (including string, number, boolean, or null).
-1. If it accepts parameters, it should accept one parameter object called 'props'.
+1. If it accepts parameters, it should accept one parameter object called `props`.
 1. It must act like a pure function with regard to its props.
 
 Now that we have a pretty good handle on elements and components, let's take a look at the next step up from there:
@@ -134,11 +132,11 @@ function withData(data, AComponent) {
 ```
 This is definitely a function, but is it an HOC? Let's do a quick check to see if what it returns is a React component using our four rules for React components:
 Is it a function? Yep!
-Does it return a React element? Yep. (Note: 'AComponent' is a React component, but <AComponent … /> is a React element.)
-If it accepts parameters, is it one parameter called 'props'? Yep.
+Does it return a React element? Yep. (Note: `AComponent` is a React component, but `<AComponent … />` is a React element.)
+If it accepts parameters, is it one parameter called `props`? Yep.
 Does it act like a pure function with regard to its props? It does indeed.
 
-Success! Since this function returns a component, it’s a higher order component. As you can see, it appears to be adding data to the props of 'AComponent'. This is one of the common ways HOC’s are used.
+Success! Since this function returns a component, it’s a higher order component. As you can see, it appears to be adding data to the props of `AComponent`. This is one of the common ways HOC’s are used.
 
 ## Don’t Forget Context
 If you’re like me, you might already have realized that you’ve used one of these words incorrectly in a discussion about React. Especially when it comes to elements and components, the words are also used in more general ways so it’s easy to confuse them. That’s why it’s important to clarify the context for how you’re using these words. Usually, simply adding ‘React’ in front of ‘element’ or ‘component’ can help everyone follow you.
