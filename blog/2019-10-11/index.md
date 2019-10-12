@@ -78,7 +78,7 @@ If you've used React some, you might have some objections to this simplistic def
 
 **Q: What about Class components?**
 
-A: Yes, you can use the class syntax to define a React component and it is different than simply defining it using a function, but ultimately *it is still a function*. Don't believe me? Consult Babel: Try it yourself in [a Repl](https://repl.it/repls/AlertExternalContent).
+A: Yes, you can use the class syntax to define a React component and it is different than simply defining it using a function, but ultimately *it is still a function*. Don't believe me? Try it yourself in [a Repl](https://repl.it/repls/AlertExternalContent).
 
 Of course, this doesn’t mean that a functional component and a class component are the same. It just means they both fit the description of being a function.
 
