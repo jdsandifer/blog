@@ -47,7 +47,7 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m J.D. Sandifer, a Software Developer with two years of industry experience, specializing in developing
+          I&apos;m J.D. Sandifer, a Software Developer with four years of industry experience, specializing in developing
           React apps and working with anything JavaScript related.
         </p>
         <p>
