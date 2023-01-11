@@ -19,7 +19,7 @@
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-prismjs": "^3.5.16",
     "gatsby-source-filesystem": "^2.3.35",
-    "gatsby-transformer-remark": "^2.8.46",
+    "gatsby-transformer-remark": "^5.25.1",
     "lodash": "^4.17.20",
     "polished": "^2.0.3",
     "prismjs": "^1.22.0",
