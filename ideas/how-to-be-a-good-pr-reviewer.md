@@ -9,26 +9,63 @@ at doing PR reviews. Here are some of the ideas I came up with:
 
 ## Read Code and Learn What Good Code Looks Like
 
-Find a way to find good code.
-Read it. A lot.
-Stop and figure out what something confusing is about.
-Go to some code you don't know is good - see if you can tell.
+To start with, it's important to understand the purpose of code:
+
+_To define a process so people can understand it._
+
+That's right, code is not for computers, it's for people. The computers will  
+run assembly code that's very difficult for humans to read; we've developed
+programming languages on top of that hard-to-read code to make it easier for us
+to understand and discuss with others.
+
+The code has to work, yes, but it's main goal after that is **to be readable**!
+
+Reading good code can help you understand what that looks like and how to
+suggest changes that will improve other people's code so that's a great way to
+improve in this area.
+
+But where do you find good code?
+
+Thankfully, other people have had the same question and answered it for us. Here
+are a few lists of codebases that have good code:
+
+-
+
+And one place for suggestions about how to write good code:
+
+- [clean-code-javascript][cc-js]
+
+Note that I didn't say anything about the language or frameworks in the code.
+Although it can definitely help to read some good code that applies to the tech
+you're working on, reading good code in other languages can help you see
+patterns that apply in all environments, too!
+
+Read it. A lot. Stop and figure out what something confusing is about. Go to
+some code you don't know is good - see if you can tell.
+
+As one final note, don't forget that there's a difference between good code and
+style. There are many different ways to format and organize code - 2 spaces vs.
+4 spaces vs. tabs for indentation, etc. Use the style guide for your
+organization or try to get your team to agree on one from somewhere else and use
+that. But style is just how the code is formatted. Good code can be created in
+any style.
 
 ## Find Good Mentors and Teachers
 
 There are a lot of software developers of all levels writing blog posts, making
 videos, and recording podcasts about software. They'll all tell you what they
-think is the best way and what they think you should know, but how to tell
-who _really_ knows?
+think is the best way and what they think you should know, but how to tell who
+_really_ knows?
 
 One good way to tell: **Do they talk about tradeoffs?**
 
 Software engineering has a lot of tradeoffs:
 
 - How good can we make the next feature vs. how fast can we get it to the users
-- Using the first variable name that comes to mind vs. taking the time to brainstorm
-- Picking a library you know vs. taking more time to research possible alternatives
-  you'd have to learn how to use, but might work better
+- Using the first variable name that comes to mind vs. taking the time to
+  brainstorm
+- Picking a library you know vs. taking more time to research possible
+  alternatives you'd have to learn how to use, but might work better
 - Discussing coding styles with your team so there's a consisent, readable style
   vs. using that time to get more code written, even if it's harder to read
 
@@ -36,27 +73,29 @@ Different teams, projects, and technologies may cause one side of the tradeoff
 to become more important so many of these don't have one right answer - it's all
 about finding a good balance for your project and organization.
 
-Let's look at some quick examples. Here's a more basic, surface-level suggestion:
+Let's look at some quick examples. Here's a more basic, surface-level
+suggestion:
 
 > Make sure your code is [DRY][wiki-dry]. If you're writing similar code in
-> multiple places, create a function to do it in one place and call the function.
-> This makes it so -you only have to edit one place if you need to change that code.
+> multiple places, create a function to do it in one place and call the
+> function. This makes it so -you only have to edit one place if you need to
+> change that code.
 
 That's a great suggestion! It's definitely a skill you should develop and know
 when to implement.
 
 But check out a more advanced suggestion:
 
-> Definitely think about making your code DRY, but don't rush into it.
-> Before you create a function to replace code in multiple places, ask yourself:
-> "Will these areas change for the same reason?" If I need to edit it in one place,
+> Definitely think about making your code DRY, but don't rush into it. Before
+> you create a function to replace code in multiple places, ask yourself: "Will
+> these areas change for the same reason?" If I need to edit it in one place,
 > will the others _definitely_ need to change, too. If you're not sure, wait.
 >
-> If the code isn't perfectly DRY, that's okay. Better a little "wet" code
-> than too much coupling that makes the code difficult to change later.
+> If the code isn't perfectly DRY, that's okay. Better a little "wet" code than
+> too much coupling that makes the code difficult to change later.
 
-Side note: For more info about the tradeoff's with DRY code, check out
-[Avoid Hasty Abstractions (AHA)][kcd-aha]
+Side note: For more info about the tradeoff's with DRY code, check out [Avoid
+Hasty Abstractions (AHA)][kcd-aha]
 
 ## Improve Your Communication Skills
 
@@ -77,25 +116,32 @@ Here are some of my rules to keep my comments and communication respectful:
   doing reviews, you're on some kind of team so keep that in your words, too.
   Besides, after a few suggestions from PR reviewers, it's no longer just code
   written by the PR author - it's code written by all of you!
-- Write like you know you could be wrong: Use questions and phrases like
-  "it seems like" and "I think" before comments like "this is no longer needed".
-  (It's a lot easier when you do make a mistake and it's easier for the reader to
-  take the feedback or push back if they're pretty sure the code is correct as-is.)
+- Write like you know you could be wrong: Use questions and phrases like "it
+  seems like" and "I think" before comments like "this is no longer needed".
+  (It's a lot easier when you do make a mistake and it's easier for the reader
+  to take the feedback or push back if they're pretty sure the code is correct
+  as-is.)
 - Try to encourage discussion: Instead of just making a suggestion, consider
-  opening up with a couple ideas and ask for additional ideas from the PR author.
-  Even if you already have an idea, you never know what you might come up with together!
+  opening up with a couple ideas and ask for additional ideas from the PR
+  author. Even if you already have an idea, you never know what you might come
+  up with together!
 
 Examples:
 
 > Can we remove this function? It looks like it's no longer needed.
-> Note the "we" and the question. Also "it looks like" - assuming you could be wrong.
+
+Note the "we" and the question. Also "it looks like" - assuming you could be
+wrong.
 
 > How about we change this name from BookList to BookCollection?
-> It's a question and it's using "we".
 
-> What do you think about trying to refactor this using a more general component here?
-> Attempting to start a discussion about possibilities instead of making a
-> specific suggestion - a great way to leverage your team.
+It's a question and it's using "we".
+
+> What do you think about trying to refactor this using a more general
+> component?
+
+Attempting to start a discussion about possibilities instead of making a
+specific suggestion - a great way to leverage your team.
 
 ### Be Clear
 
@@ -104,12 +150,14 @@ speed up the process with some deliberate steps:
 
 1. Take notes of good exchanges where it's clear your comments were understood
    right away by the reader. How did you make your ideas clear?
-1. Take notes of lengthy exchanges where you had to re-state your ideas
-   multiple times - how did you say things when they were finally understood?
+1. Take notes of lengthy exchanges where you had to re-state your ideas multiple
+   times - how did you say things when they were finally understood?
 1. Revise your comments to try and make them shorter without losing meaning or
-   leaving out anything. Can you say the same thing with 75% of the words? Half? 20%?
+   leaving out anything. Can you say the same thing with 75% of the words? Half?
+   20%?
 1. Ask for feedback! E.g. "I noticed it took a while for us to reach an
-   agreement in that discussion. Could I have done anything to make that easier?"
+   agreement in that discussion. Could I have done anything to make that
+   easier?"
 
 ## Learn to Think About Risks, Value, and The Big Picture
 
@@ -117,11 +165,12 @@ speed up the process with some deliberate steps:
 
 This is both a simple concept and a difficult one to measure well. Risks are
 what could go wrong. If a variable name isn't perfect, the code will still work,
-but it may be harder for other developers to read and understand. However if
-a date isn't converted properly, that could lead to a significant bug.
-One clearly matters more than the other because the risk is bigger.
+but it may be harder for other developers to read and understand. However if a
+date isn't converted properly, that could lead to a significant bug. One clearly
+matters more than the other because the risk is bigger.
 
-Spend more time reading, thinking about, commenting on, and discussing riskier parts of the PR.
+Spend more time reading, thinking about, commenting on, and discussing riskier
+parts of the PR.
 
 Don't be afraid to leave off comments about refactoring, names, or small changes
 to avoid distracting too much from risky areas that need a change or a small
@@ -130,13 +179,14 @@ discussion to make sure things are handled the right way.
 ### Value
 
 Finding bugs is the best. Suggesting refactorings that can make the code easier
-to read or edit is super helpful. However the 20th name change is not as important.
-And making too many suggestions for old code that wasn't changed quickly become
-annoying.
+to read or edit is super helpful. However the 20th name change is not as
+important. And making too many suggestions for old code that wasn't changed
+quickly become annoying.
 
 Try to consider how much your suggestion will impact the user of your software,
 the amount of money your company makes (if applicable), and how much your team
-will appreciate the change. Then decide whether it's worth the time it'll take to make it.
+will appreciate the change. Then decide whether it's worth the time it'll take
+to make it.
 
 And if your Project Manager would love how it helped them meet the estimate they
 shared with upper management - by avoiding a bug that would have delayed work or
@@ -150,12 +200,13 @@ code do what it's supposed to? Does the overall structure of the files and code
 make sense? How long are you spending on the review?
 
 Make sure you don't get stuck suggesting name changes and how to remove nested
-ternaries and then forget to check the overall functionality or structure.
-Not every possible improvement needs to be made on this PR.
+ternaries and then forget to check the overall functionality or structure. Not
+every possible improvement needs to be made on this PR.
 
-Also, consider the number of commments - if you've got 50 comments on a small
-to medium size PR, that's probably too many. Keep the most important ones
-and see if you can delete a few without significant risks or loss of value.
+Also, consider the number of commments - if you've got 50 comments on a small to
+medium size PR, that's probably too many. Keep the most important ones and see
+if you can delete a few without significant risks or loss of value.
 
+[cc-js]: https://github.com/ryanmcdermott/clean-code-javascript
 [wiki-dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 [kcd-aha]: https://www.kentcdodds.com
