@@ -20,28 +20,33 @@ to understand and discuss with others.
 
 The code has to work, yes, but it's main goal after that is **to be readable**!
 
+Here are a few things I expect from readable code:
+- It's not too complex or surprising. It follows existing patterns.
+- It's not too short or too long. It's concise.
+- There's a decent chance a non-programmer could figure out what it's doing. It's 
+written in "human" as much as possible, not full of programmer jargon.
+
 Reading good code can help you understand what that looks like and how to
-suggest changes that will improve other people's code so that's a great way to
-improve in this area.
+suggest changes that will improve other people's code.
 
 But where do you find good code?
 
 Thankfully, other people have had the same question and answered it for us. Here
-are a few lists of codebases that have good code:
+are a couple codebases that have some pretty good code:
 
--
+- [Bulletproof React](https://github.com/alan2207/bulletproof-react)
+- [Simorgh](https://github.com/bbc/simorgh)
 
-And one place for suggestions about how to write good code:
+And one person that created there own list: [Max Rozen](https://maxrozen.com/examples-of-large-production-grade-open-source-react-apps)
 
-- [clean-code-javascript][cc-js]
+To start with - I recommend checking out JSX files (.jsx or .tsx) in a components 
+directory if you can find it - it's often something like `src/app/components/`.
 
-Note that I didn't say anything about the language or frameworks in the code.
-Although it can definitely help to read some good code that applies to the tech
-you're working on, reading good code in other languages can help you see
-patterns that apply in all environments, too!
+And here's a repo with suggestions about how to write good code: [clean-code-javascript][cc-js]
 
-Read it. A lot. Stop and figure out what something confusing is about. Go to
-some code you don't know is good - see if you can tell.
+So read code. A lot. Stop and figure out what something confusing is about. Go to
+some code that you don't know is good - see if you can tell whether it is or not. 
+And of course, see if you can make your next PR look a little more readable, too!
 
 As one final note, don't forget that there's a difference between good code and
 style. There are many different ways to format and organize code - 2 spaces vs.
@@ -103,7 +108,7 @@ This is good advice for just about everyone everywhere. But in the context of PR
 reviews, I 'm thinking about 2 specific goals:
 
 1. Be consistently respectful (even if you have to be firm)
-1. Be able clearly share your point of view (even if you don't end up convincing
+1. Be able to clearly share your point of view (even if you don't end up convincing
    them of your idea)
 
 ### Be Respectful (in every comment)
@@ -118,9 +123,8 @@ Here are some of my rules to keep my comments and communication respectful:
   written by the PR author - it's code written by all of you!
 - Write like you know you could be wrong: Use questions and phrases like "it
   seems like" and "I think" before comments like "this is no longer needed".
-  (It's a lot easier when you do make a mistake and it's easier for the reader
-  to take the feedback or push back if they're pretty sure the code is correct
-  as-is.)
+  (It's a lot easier when you do make a mistake, but it's also easier for the reader
+  to take the feedback and really consider it.)
 - Try to encourage discussion: Instead of just making a suggestion, consider
   opening up with a couple ideas and ask for additional ideas from the PR
   author. Even if you already have an idea, you never know what you might come
@@ -151,11 +155,12 @@ speed up the process with some deliberate steps:
 1. Take notes of good exchanges where it's clear your comments were understood
    right away by the reader. How did you make your ideas clear?
 1. Take notes of lengthy exchanges where you had to re-state your ideas multiple
-   times - how did you say things when they were finally understood?
+   times - how did you say things when they were finally understood? How was that 
+   different from the first comment you made?
 1. Revise your comments to try and make them shorter without losing meaning or
    leaving out anything. Can you say the same thing with 75% of the words? Half?
    20%?
-1. Ask for feedback! E.g. "I noticed it took a while for us to reach an
+1. Ask for feedback every once in a while! E.g. "I noticed it took a while for us to reach an
    agreement in that discussion. Could I have done anything to make that
    easier?"
 
@@ -173,17 +178,17 @@ Spend more time reading, thinking about, commenting on, and discussing riskier
 parts of the PR.
 
 Don't be afraid to leave off comments about refactoring, names, or small changes
-to avoid distracting too much from risky areas that need a change or a small
+to avoid distracting too much from risky areas that definitely need a change or a small
 discussion to make sure things are handled the right way.
 
 ### Value
 
 Finding bugs is the best. Suggesting refactorings that can make the code easier
 to read or edit is super helpful. However the 20th name change is not as
-important. And making too many suggestions for old code that wasn't changed
-quickly become annoying.
+important. And making too many suggestions about old code that wasn't changed
+quickly becomes annoying.
 
-Try to consider how much your suggestion will impact the user of your software,
+Try to consider how much your suggestion will impact the users of your software,
 the amount of money your company makes (if applicable), and how much your team
 will appreciate the change. Then decide whether it's worth the time it'll take
 to make it.
