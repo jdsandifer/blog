@@ -212,6 +212,14 @@ Also, consider the number of commments - if you've got 50 comments on a small to
 medium size PR, that's probably too many. Keep the most important ones and see
 if you can delete a few without significant risks or loss of value.
 
+## Conclusion
+It takes many different skills to review PR's well. I think that working on 
+recognizing readable code, finding good teachers, improving your communication, 
+and remembering the big picture are good areas to focus on to increase your 
+effectiveness with PR reviews.
+
+I hope that's helpful and good luck with your reviews!
+
 [cc-js]: https://github.com/ryanmcdermott/clean-code-javascript
 [wiki-dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 [kcd-aha]: https://www.kentcdodds.com
