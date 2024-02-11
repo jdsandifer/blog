@@ -1,5 +1,0 @@
-[build]
-  command = "yarn run build --prefix-paths"
-  publish = "public"
-[build.environment]
-  NODE_VERSION = "12.19.0"
