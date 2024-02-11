@@ -1,6 +1,6 @@
 ---
 date: "2024-02-02"
-title: "How to Be a Good PR Reviewer"
+title: "How to Be a Great PR Reviewer"
 category: "Growth, PR Reviews"
 ---
 
