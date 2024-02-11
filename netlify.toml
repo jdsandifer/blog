@@ -1,0 +1,25 @@
+# Settings in the [build] context are global and are applied to all contexts 
+# unless otherwise overridden by more specific contexts.
+[build]
+  # This is the directory to change to before starting a build.
+  # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
+  base = "/"
+
+  # This is the directory that you are publishing from (relative to the 
+  # root of your repo). I.e. where the deploy files will be copied from.
+  publish = "public"
+
+
+# Production context: All deploys from the Production branch set in your site's 
+# deploy settings will inherit these settings.
+[context.production]
+
+  # This will be your default build command
+  command = "yarn run build --prefix-paths"
+
+
+# Deploy Preview context: All Deploy Previews will inherit these settings.
+[context.deploy-preview]
+
+  # This will be your default build command
+  command = "yarn run build"
