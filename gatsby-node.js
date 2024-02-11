@@ -5,6 +5,7 @@
  */
 
 const path = require(`path`)
+const _ = require('lodash');
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 // Define the template for blog post
@@ -68,14 +69,21 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
+  let slug;
+  if (node.internal.type === 'MarkdownRemark') {
+    if (
+      Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
+      Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')
+    ) {
+      slug = `/${_.kebabCase(node.frontmatter.slug)}`;
+    }
+    if (
+      Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
+      Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')
+    ) {
+      slug = `/${_.kebabCase(node.frontmatter.title)}`;
+    }
+    createNodeField({ node, name: 'slug', value: slug });
   }
 }
 
