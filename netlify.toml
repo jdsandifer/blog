@@ -23,3 +23,9 @@
 
   # This will be your default build command
   command = "yarn run build"
+
+# Deploy Branch context: All deploys for the "test" branch will inherit these settings.
+[context.test]
+
+  # This will be your default build command
+  command = "yarn run build --prefix-paths"
