@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: `/blog`,
+  pathPrefix: `blog`,
   siteMetadata: {
     title: `The Blog of J.D. Sandifer`,
     author: {
@@ -16,7 +16,7 @@ module.exports = {
       summary: `who lives in Portland and likes crafting quality software.`,
     },
     description: `A blog mostly about software craft and a little about other things.`,
-    siteUrl: `https://www.jdsandifer.com/blog/`,
+    siteUrl: `https://www.jdsandifer.com/blog`,
     social: {
       twitter: `jdsandifer`,
     },
@@ -113,7 +113,7 @@ module.exports = {
       options: {
         name: `The Blog of J.D. Sandifer`,
         short_name: `J.D.'s Blog`,
-        start_url: `/blog`,
+        start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
