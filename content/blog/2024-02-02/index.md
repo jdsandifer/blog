@@ -222,4 +222,4 @@ I hope that's helpful and good luck with your reviews!
 
 [cc-js]: https://github.com/ryanmcdermott/clean-code-javascript
 [wiki-dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
-[kcd-aha]: https://www.kentcdodds.com
+[kcd-aha]: https://kentcdodds.com/blog/aha-programming
