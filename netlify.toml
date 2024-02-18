@@ -1,0 +1,7 @@
+# Because Netlify now adds a folder to match the pathPrefix,
+# we need to route to it correctly.
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog/blog/:splat"
+  status = 200
+  force = true

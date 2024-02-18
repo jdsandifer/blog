@@ -113,7 +113,7 @@ module.exports = {
       options: {
         name: `The Blog of J.D. Sandifer`,
         short_name: `J.D.'s Blog`,
-        start_url: `/`,
+        start_url: `/blog`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
