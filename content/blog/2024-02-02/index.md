@@ -21,9 +21,10 @@ to understand and discuss with others.
 The code has to work, yes, but it's main goal after that is **to be readable**!
 
 Here are a few things I expect from readable code:
+
 - It's not too complex or surprising. It follows existing patterns.
 - It's not too short or too long. It's concise.
-- There's a decent chance a non-programmer could figure out what it's doing. It's 
+- There's a decent chance a non-programmer could figure out what it's doing. It's
   written in "human" as much as possible, not full of programmer jargon.
 
 Reading good code can help you understand what that looks like and how to
@@ -37,16 +38,16 @@ are a couple codebases that have some pretty good code:
 - [Bulletproof React](https://github.com/alan2207/bulletproof-react)
 - [Simorgh](https://github.com/bbc/simorgh)
 
-And one person that created there own list: [Max Rozen](https://maxrozen.com/examples-of-large-production-grade-open-source-react-apps)
+And one person that created their own list: [Max Rozen](https://maxrozen.com/examples-of-large-production-grade-open-source-react-apps)
 
-To start with - I recommend checking out JSX files (.jsx or .tsx) in a components 
+To start with - I recommend checking out JSX files (.jsx or .tsx) in a components
 directory if you can find it - it's often something like `src/app/components/`.
 
 And here's a repo with suggestions about how to write good code: [clean-code-javascript][cc-js]
 
 So read code. A lot. Stop and figure out what something confusing is about. Go to
-some code that you don't know is good - see if you can tell whether it is or not. 
-And of course, see if you can make your next PR look a little more readable, too!
+some code that you don't know is good - see if you can tell whether it is or not.
+And of course, see if you can make your next PR a little more readable, too!
 
 As one final note, don't forget that there's a difference between good code and
 style. There are many different ways to format and organize code - 2 spaces vs.
@@ -99,13 +100,14 @@ But check out a more advanced suggestion:
 > If the code isn't perfectly DRY, that's okay. Better a little "wet" code than
 > too much coupling that makes the code difficult to change later.
 
-Side note: For more info about the tradeoff's with DRY code, check out [Avoid
-Hasty Abstractions (AHA)][kcd-aha]
+Side note: For more info about the tradeoff's with DRY code, check out a different
+acronym: [AHA (Avoid
+Hasty Abstractions)][kcd-aha]
 
 ## Improve Your Communication Skills
 
 This is good advice for just about everyone everywhere. But in the context of PR
-reviews, I 'm thinking about 2 specific goals:
+reviews, I'm thinking about 2 specific goals:
 
 1. Be consistently respectful (even if you have to be firm)
 1. Be able to clearly share your point of view (even if you don't end up convincing
@@ -155,7 +157,7 @@ speed up the process with some deliberate steps:
 1. Take notes of good exchanges where it's clear your comments were understood
    right away by the reader. How did you make your ideas clear?
 1. Take notes of lengthy exchanges where you had to re-state your ideas multiple
-   times - how did you say things when they were finally understood? How was that 
+   times - how did you say things when they were finally understood? How was that
    different from the first comment you made?
 1. Revise your comments to try and make them shorter without losing meaning or
    leaving out anything. Can you say the same thing with 75% of the words? Half?
@@ -213,9 +215,10 @@ medium size PR, that's probably too many. Keep the most important ones and see
 if you can delete a few without significant risks or loss of value.
 
 ## Conclusion
-It takes many different skills to review PR's well. I think that working on 
-recognizing readable code, finding good teachers, improving your communication, 
-and remembering the big picture are good areas to focus on to increase your 
+
+It takes many different skills to review PR's well. I think that working on
+recognizing readable code, finding good teachers, improving your communication,
+and remembering the big picture are good areas to focus on to increase your
 effectiveness with PR reviews.
 
 I hope that's helpful and good luck with your reviews!
