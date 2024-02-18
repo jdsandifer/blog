@@ -5,3 +5,9 @@
   to = "/blog/blog/:splat"
   status = 200
   force = true
+  
+[[redirects]]
+  from = "/blog/"
+  to = "/blog/blog/"
+  status = 200
+  force = true
