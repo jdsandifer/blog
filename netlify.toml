@@ -15,7 +15,7 @@
 [context.production]
 
   # The build command
-  command = "yarn run build --prefix-paths && cp -r /build/ . && rmdir build"
+  command = "yarn run build --prefix-paths"
 
 
 # Deploy Preview context: All Deploy Previews will inherit these settings.
@@ -28,4 +28,4 @@
 [context.test]
 
   # The build command
-  command = "yarn run build --prefix-paths && cp -r /build/ . && rmdir build"
+  command = "yarn run build --prefix-paths"
