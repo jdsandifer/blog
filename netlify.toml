@@ -1,7 +1,7 @@
 # Settings in the [build] context are global and are applied to all contexts 
 # unless otherwise overridden by more specific contexts.
 [build]
-  # This is the directory to change to before starting a build.
+  # This is the directory to change to in the project before starting a build.
   # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
   base = "/"
 
@@ -14,18 +14,18 @@
 # deploy settings will inherit these settings.
 [context.production]
 
-  # This will be your default build command
-  command = "yarn run build --prefix-paths"
+  # The build command
+  command = "yarn run build --prefix-paths && cp -r /build/ . && rmdir build"
 
 
 # Deploy Preview context: All Deploy Previews will inherit these settings.
 [context.deploy-preview]
 
-  # This will be your default build command
+  # The build command
   command = "yarn run build"
 
 # Deploy Branch context: All deploys for the "test" branch will inherit these settings.
 [context.test]
 
-  # This will be your default build command
+  # The build command
   command = "yarn run build --prefix-paths"
